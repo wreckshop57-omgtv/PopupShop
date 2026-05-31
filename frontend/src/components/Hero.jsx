@@ -59,19 +59,19 @@ export const Hero = () => {
 
           <div className="mt-10 flex flex-col sm:flex-row items-center gap-3">
             <a
-              href="#devices"
-              data-testid="hero-cta-view-devices"
+              href="#order"
+              data-testid="hero-cta-order"
               className="group inline-flex items-center gap-2 rounded-full bg-[#0071E3] hover:bg-[#0077ED] text-white text-[15px] font-medium px-6 py-3.5 transition-all duration-300 shadow-[0_8px_24px_-8px_rgba(0,113,227,0.6)]"
             >
-              View Available Devices
+              Order Now
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
-              href="#faq"
-              data-testid="hero-cta-faq"
+              href="#devices"
+              data-testid="hero-cta-view-devices"
               className="inline-flex items-center gap-2 rounded-full bg-[#E8E8ED] hover:bg-[#D2D2D7] text-[#1D1D1F] text-[15px] font-medium px-6 py-3.5 transition-colors"
             >
-              How it works
+              View Available Devices
             </a>
           </div>
 

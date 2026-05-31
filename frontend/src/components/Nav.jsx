@@ -5,6 +5,7 @@ const LINKS = [
   { href: "#devices", label: "Devices" },
   { href: "#trust", label: "Why us" },
   { href: "#faq", label: "FAQ" },
+  { href: "#order", label: "Order" },
 ];
 
 export const Nav = () => {
@@ -49,11 +50,11 @@ export const Nav = () => {
 
         <div className="flex items-center gap-3">
           <a
-            href="#devices"
-            data-testid="nav-cta-browse"
-            className="hidden sm:inline-flex items-center rounded-full bg-[#1D1D1F] hover:bg-black text-white text-[13px] font-medium px-4 py-2 transition-colors"
+            href="#order"
+            data-testid="nav-cta-order"
+            className="hidden sm:inline-flex items-center rounded-full bg-[#0071E3] hover:bg-[#0077ED] text-white text-[13px] font-medium px-4 py-2 transition-colors shadow-[0_6px_20px_-8px_rgba(0,113,227,0.7)]"
           >
-            Browse devices
+            Order Now
           </a>
           <button
             data-testid="nav-mobile-toggle"

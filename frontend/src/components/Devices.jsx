@@ -26,10 +26,18 @@ export const Devices = () => {
               This week's <span className="font-medium">inventory.</span>
             </h2>
           </div>
-          <p className="max-w-md text-[#86868B] leading-relaxed">
-            Hover (or tap) any device to flip the card and see pricing and full specs.
-            When the count hits zero, the pop-up moves on.
-          </p>
+          <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+            <p className="max-w-sm text-[#86868B] leading-relaxed text-[14px]">
+              Hover any device to flip and reveal price + specs.
+            </p>
+            <a
+              href="#order"
+              data-testid="devices-order-cta"
+              className="inline-flex items-center gap-1.5 rounded-full bg-[#1D1D1F] hover:bg-black text-white text-[13px] font-medium px-4 py-2.5 transition-colors whitespace-nowrap"
+            >
+              Order Now
+            </a>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -125,9 +133,18 @@ export const Devices = () => {
                     ))}
                   </ul>
 
-                  <div className="mt-6 pt-5 border-t border-white/10 inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.18em] font-semibold text-[#E30000]">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#E30000] animate-pulse" />
-                    While supplies last
+                  <div className="mt-6 pt-5 border-t border-white/10 flex items-center justify-between">
+                    <span className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.18em] font-semibold text-[#E30000]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#E30000] animate-pulse" />
+                      While supplies last
+                    </span>
+                    <a
+                      href="#order"
+                      data-testid={`product-order-${p.id}`}
+                      className="inline-flex items-center gap-1.5 rounded-full bg-white hover:bg-white/90 text-[#1D1D1F] text-[12px] font-semibold px-3.5 py-1.5 transition-colors"
+                    >
+                      Order Now
+                    </a>
                   </div>
                 </div>
               </div>
