@@ -1,0 +1,94 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) - Apple Glassmorphism Aesthetic",
+  "emotion_and_tone": "Urgent but premium. Clean, sparse, intentional. Like walking into a high-end minimalist pop-up store where stock is visibly disappearing.",
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Figtree",
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl tracking-tighter font-light text-zinc-900",
+      "h2": "text-3xl sm:text-4xl tracking-tight font-medium text-zinc-900",
+      "h3": "text-xl sm:text-2xl tracking-tight font-medium text-zinc-900",
+      "h4": "text-lg sm:text-xl font-medium text-zinc-800",
+      "body": "text-base leading-relaxed text-zinc-500",
+      "overline": "text-xs uppercase tracking-[0.2em] font-semibold text-blue-600",
+      "urgency_tag": "text-xs font-bold uppercase tracking-wider text-red-600 bg-red-50 px-2 py-1 rounded-full"
+    }
+  },
+  "colors": {
+    "backgrounds": {
+      "primary": "bg-[#F5F5F7]",
+      "secondary": "bg-white",
+      "tertiary": "bg-[#E8E8ED]"
+    },
+    "text": {
+      "primary": "text-[#1D1D1F]",
+      "secondary": "text-[#86868B]",
+      "inverse": "text-white"
+    },
+    "accents": {
+      "primary_cta": "bg-[#0071E3] hover:bg-[#0077ED] text-white",
+      "secondary_cta": "bg-[#E8E8ED] hover:bg-[#D2D2D7] text-[#1D1D1F]",
+      "urgency": "text-[#E30000]"
+    },
+    "borders": "border-[#D2D2D7]/50"
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous Spacing Philosophy. Apple-style whitespace.",
+    "section_padding": "py-24 sm:py-32 px-6 sm:px-12 lg:px-24",
+    "container": "max-w-7xl mx-auto",
+    "grid_system": "Bento Grid Protocol. Mode A for marketing sections. Mode B for Trust Points.",
+    "border_radius": "rounded-3xl for main containers, rounded-full for buttons"
+  },
+  "surfaces_and_shadows": {
+    "glassmorphism": "backdrop-blur-2xl bg-white/70 border border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.04)]",
+    "cards": "bg-white rounded-3xl shadow-[0_2px_20px_rgba(0,0,0,0.04)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.08)]",
+    "navigation": "sticky top-0 z-50 backdrop-blur-xl bg-white/70 border-b border-[#D2D2D7]/30"
+  },
+  "components": {
+    "hero": "Large centralized typography. Use abstract glass background image subtly. CTAs side by side. Urgency text below CTAs in red.",
+    "product_cards": "Minimalist. Image takes up top 60%, light gray background for image container. Content below with left-aligned text. Price prominent. 'Limited Stock' urgency tag.",
+    "buying_process": "Horizontal or bento layout. 4 steps. Use lucide-react icons (light stroke). Minimal text.",
+    "trust_points": "Grid layout (grid-cols-2 or grid-cols-3). Solid white cards on off-white background.",
+    "faq": "Shadcn Accordion. Remove default borders, use custom spacing. Bold question, gray answer.",
+    "contact_form": "Shadcn Form elements. High contrast inputs (white bg, subtle border). Focus state: ring-2 ring-blue-500. Submit button full width.",
+    "footer": "Generous spacing (py-24). Deep dark background (bg-[#1D1D1F]) to contrast with the light page, white text. Large statement text."
+  },
+  "interactions_and_motion": {
+    "hover": "Subtle lifts (-translate-y-1) and shadow increases.",
+    "transitions": "transition-all duration-300 ease-out",
+    "reveal": "Use framer-motion for staggered fade-up on scroll."
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/baaaec5f-9c2f-423e-9ec3-cb2363c3f9eb/images/6f5ca1baa902fdfae489c8bed7187a911d2b3309e6319528c3aa12ea94cb5bfe.png",
+      "description": "Abstract minimalist frosted glass background to be used as a subtle overlay or behind the hero section."
+    },
+    "store_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/baaaec5f-9c2f-423e-9ec3-cb2363c3f9eb/images/1c1fe599f7138bde40713f16ed7adbba1860ddb632e8ff6d6bae2e2cb8901e51.png",
+      "description": "Cinematic tech store background, good for the Contact/Form section background."
+    },
+    "product_ipad": {
+      "url": "https://images.unsplash.com/photo-1513348313239-6ccc6c25c11b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwzfHxhcHBsZSUyMGlwYWQlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzgwMjA4MzgzfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Apple iPad product image for the Featured Devices section."
+    },
+    "product_lenovo_laptop": {
+      "url": "https://images.pexels.com/photos/3550482/pexels-photo-3550482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Lenovo ThinkPad laptop product image for the Featured Devices section."
+    },
+    "product_aio_pc": {
+      "url": "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Minimalist Desktop AIO PC product image for the Featured Devices section."
+    }
+  },
+  "instructions_to_main_agent": [
+    "INSTALL FONTS: Ensure you use Google Fonts via standard import in index.css for 'Outfit' (headings) and 'Figtree' (body). Do NOT use Inter.",
+    "DATA-TESTID: ALL interactive elements and major sections MUST have a data-testid attribute (e.g., data-testid='hero-cta-button', data-testid='product-card-ipad').",
+    "LAYOUT: Use pure HTML/Tailwind for marketing layout (hero, bento grids). Use Shadcn ONLY for the Form, Inputs, Select, Accordion, and basic Buttons.",
+    "HERO OVERLAY: Do NOT use a heavy black overlay. Use a subtle gradient or translucent glass card to keep the Apple aesthetic crisp and bright.",
+    "NAVIGATION: Create a sticky header with glassmorphism (backdrop-blur-xl bg-white/70) containing Logo, Links, and CTA.",
+    "RESPONSIVENESS: Ensure mobile views stack neatly. Images must not exceed 80vh height on mobile.",
+    "ACCESSIBILITY: Ensure high contrast ratios. Text on white must be #1D1D1F or #86868B. Red urgency tags must be readable.",
+    "NO PLACEHOLDERS: Use the EXACT media URLs provided above. Do not use placeholder images like via.placeholder.com."
+  ]
+}
