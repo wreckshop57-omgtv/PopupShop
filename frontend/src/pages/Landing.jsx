@@ -1,10 +1,8 @@
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
 import { Devices } from "@/components/Devices";
-import { Process } from "@/components/Process";
 import { Trust } from "@/components/Trust";
 import { Faq } from "@/components/Faq";
-import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
 export default function Landing() {
@@ -14,10 +12,8 @@ export default function Landing() {
       <main>
         <Hero />
         <Devices />
-        <Process />
         <Trust />
         <Faq />
-        <Contact />
       </main>
       <Footer />
     </div>

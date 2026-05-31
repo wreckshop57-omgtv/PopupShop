@@ -28,7 +28,6 @@ export const Footer = () => {
               </div>
               <ul className="mt-4 space-y-2">
                 <li><a href="#devices" data-testid="footer-link-devices" className="text-white/80 hover:text-white transition-colors">Devices</a></li>
-                <li><a href="#process" data-testid="footer-link-process" className="text-white/80 hover:text-white transition-colors">How it works</a></li>
                 <li><a href="#trust" data-testid="footer-link-trust" className="text-white/80 hover:text-white transition-colors">Why us</a></li>
                 <li><a href="#faq" data-testid="footer-link-faq" className="text-white/80 hover:text-white transition-colors">FAQ</a></li>
               </ul>

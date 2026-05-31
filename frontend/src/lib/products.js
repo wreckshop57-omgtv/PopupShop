@@ -1,36 +1,83 @@
 export const PRODUCTS = [
   {
-    id: "ipad",
-    name: "Apple iPad",
-    tagline: "Versatile. Lightweight. Ready to go.",
+    id: "ipad-air-5",
+    name: "Apple iPad Air (5th Gen)",
+    tagline: "M1 power in a paper-thin tablet.",
     image:
       "https://images.unsplash.com/photo-1513348313239-6ccc6c25c11b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwzfHxhcHBsZSUyMGlwYWQlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzgwMjA4MzgzfDA&ixlib=rb-4.1.0&q=85",
     startingPrice: "Starting at $XXX",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
-    specs: ["Wi-Fi enabled", "Cleaned & reset", "Battery tested"],
+    specs: [
+      "Apple M1 chip · 8-core CPU",
+      '10.9" Liquid Retina display',
+      "8GB RAM · 64GB / 256GB storage",
+      "Wi-Fi · Touch ID · USB-C",
+    ],
   },
   {
-    id: "lenovo-laptop",
-    name: "Lenovo ThinkPad",
-    tagline: "Business-class power, pop-up pricing.",
+    id: "thinkpad-t490",
+    name: "Lenovo ThinkPad T490",
+    tagline: "Business-class workhorse, pop-up pricing.",
     image:
       "https://images.pexels.com/photos/3550482/pexels-photo-3550482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     startingPrice: "Starting at $XXX",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
-    specs: ["Intel processor", "SSD storage", "Windows ready"],
+    specs: [
+      "Intel Core i5 / i7 (8th Gen)",
+      '14" FHD anti-glare display',
+      "8GB / 16GB RAM · 256GB / 512GB SSD",
+      "Backlit keyboard · Windows 11 ready",
+    ],
   },
   {
-    id: "aio-pc",
-    name: "Lenovo All-in-One PC",
-    tagline: "Clean desk. Clean setup. One unit.",
+    id: "dell-aio",
+    name: "Dell OptiPlex All-in-One",
+    tagline: "Clean desk, all-in-one workstation.",
     image:
       "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
     startingPrice: "Starting at $XXX",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
-    specs: ["Integrated display", "Keyboard & mouse", "Plug-and-play"],
+    specs: [
+      "Intel Core i5 · 8GB RAM",
+      '23" / 24" FHD integrated display',
+      "256GB SSD storage",
+      "Keyboard & mouse included",
+    ],
+  },
+  {
+    id: "lenovo-aio",
+    name: "Lenovo ThinkCentre All-in-One",
+    tagline: "Reliable, quiet, ready-to-plug-in.",
+    image:
+      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
+    startingPrice: "Starting at $XXX",
+    condition: "Tested & Reset",
+    quantity: "Limited Stock",
+    specs: [
+      "Intel Core i5 · 8GB RAM",
+      '21.5" / 23.8" FHD display',
+      "256GB SSD · Wi-Fi enabled",
+      "Webcam · Keyboard & mouse",
+    ],
+  },
+  {
+    id: "hp-aio",
+    name: "HP ProOne All-in-One",
+    tagline: "Sleek footprint, full-size performance.",
+    image:
+      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
+    startingPrice: "Starting at $XXX",
+    condition: "Tested & Reset",
+    quantity: "Limited Stock",
+    specs: [
+      "Intel Core i5 · 8GB RAM",
+      '21.5" FHD integrated display',
+      "256GB SSD storage",
+      "Webcam · Keyboard & mouse",
+    ],
   },
 ];
 
@@ -68,11 +115,4 @@ export const TRUST_POINTS = [
   { icon: "MapPin", title: "Local Pickup Available", desc: "Pick up your device locally. No shipping headaches." },
   { icon: "Layers", title: "Bulk Deals Available", desc: "Buying for a team, school or business? Ask for a bundle quote." },
   { icon: "Zap", title: "Fast Response", desc: "We confirm availability quickly so you don't miss out." },
-];
-
-export const STEPS = [
-  { n: "01", title: "Browse available devices", desc: "Scan our pop-up lineup of iPads, Lenovo laptops and All-in-Ones." },
-  { n: "02", title: "Submit a request", desc: "Tell us what you want, how many, and how to reach you." },
-  { n: "03", title: "Confirm availability", desc: "We'll reply with stock status, final price and pickup details." },
-  { n: "04", title: "Arrange payment & pickup", desc: "Lock it in, pay, and grab your device locally. Done." },
 ];

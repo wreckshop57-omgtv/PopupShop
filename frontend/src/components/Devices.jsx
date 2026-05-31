@@ -1,5 +1,5 @@
 import { PRODUCTS } from "@/lib/products";
-import { ArrowUpRight, CheckCircle2 } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 export const Devices = () => {
   return (
@@ -27,7 +27,7 @@ export const Devices = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {PRODUCTS.map((p) => (
             <article
               key={p.id}
@@ -76,23 +76,16 @@ export const Devices = () => {
                 </ul>
 
                 <div className="mt-6 flex items-center justify-between pt-5 border-t border-[#D2D2D7]/60">
-                  <span className="text-[12px] uppercase tracking-wider text-[#86868B] font-medium">
+                  <span
+                    data-testid={`product-condition-${p.id}`}
+                    className="text-[12px] uppercase tracking-wider text-[#86868B] font-medium"
+                  >
                     {p.condition}
                   </span>
-                  <a
-                    href={`#contact?device=${p.id}`}
-                    onClick={() => {
-                      const sel = document.querySelector("[data-testid='form-device-trigger']");
-                      sel && sel.setAttribute("data-prefill", p.name);
-                      const event = new CustomEvent("prefill-device", { detail: p.name });
-                      window.dispatchEvent(event);
-                    }}
-                    data-testid={`product-cta-${p.id}`}
-                    className="group/btn inline-flex items-center gap-1.5 rounded-full bg-[#1D1D1F] hover:bg-black text-white text-[13px] font-medium px-4 py-2 transition-colors"
-                  >
-                    Request
-                    <ArrowUpRight size={14} className="transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
-                  </a>
+                  <span className="inline-flex items-center gap-1.5 text-[12px] font-semibold uppercase tracking-wider text-[#E30000]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#E30000]" />
+                    While supplies last
+                  </span>
                 </div>
               </div>
             </article>

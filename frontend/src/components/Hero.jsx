@@ -67,11 +67,11 @@ export const Hero = () => {
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
-              href="#contact"
-              data-testid="hero-cta-request-device"
+              href="#faq"
+              data-testid="hero-cta-faq"
               className="inline-flex items-center gap-2 rounded-full bg-[#E8E8ED] hover:bg-[#D2D2D7] text-[#1D1D1F] text-[15px] font-medium px-6 py-3.5 transition-colors"
             >
-              Request a Device
+              How it works
             </a>
           </div>
 

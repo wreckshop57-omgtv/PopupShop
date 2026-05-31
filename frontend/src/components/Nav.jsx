@@ -3,10 +3,8 @@ import { Menu, X } from "lucide-react";
 
 const LINKS = [
   { href: "#devices", label: "Devices" },
-  { href: "#process", label: "How it works" },
   { href: "#trust", label: "Why us" },
   { href: "#faq", label: "FAQ" },
-  { href: "#contact", label: "Contact" },
 ];
 
 export const Nav = () => {
@@ -51,11 +49,11 @@ export const Nav = () => {
 
         <div className="flex items-center gap-3">
           <a
-            href="#contact"
-            data-testid="nav-cta-request"
+            href="#devices"
+            data-testid="nav-cta-browse"
             className="hidden sm:inline-flex items-center rounded-full bg-[#1D1D1F] hover:bg-black text-white text-[13px] font-medium px-4 py-2 transition-colors"
           >
-            Request a device
+            Browse devices
           </a>
           <button
             data-testid="nav-mobile-toggle"
