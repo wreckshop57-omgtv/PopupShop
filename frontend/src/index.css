@@ -80,6 +80,32 @@ html {
     animation: marquee 30s linear infinite;
 }
 
+/* 3D flip card */
+.flip-card {
+    perspective: 1200px;
+}
+.flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-inner,
+.flip-card:focus-within .flip-inner,
+.flip-card.is-flipped .flip-inner {
+    transform: rotateY(180deg);
+}
+.flip-face {
+    position: absolute;
+    inset: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-back {
+    transform: rotateY(180deg);
+}
+
 /* Subtle fade up on scroll */
 .fade-up {
     opacity: 0;
