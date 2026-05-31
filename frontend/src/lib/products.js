@@ -32,51 +32,19 @@ export const PRODUCTS = [
     ],
   },
   {
-    id: "dell-aio",
-    name: "Dell OptiPlex All-in-One",
-    tagline: "Clean desk, all-in-one workstation.",
+    id: "aio-desktops",
+    name: "All-in-One Desktops",
+    tagline: "Dell · Lenovo · HP — one clean unit, ready to plug in.",
     image:
       "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
     startingPrice: "Starting at $XXX",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
     specs: [
-      "Intel Core i5 · 8GB RAM",
-      '23" / 24" FHD integrated display',
-      "256GB SSD storage",
-      "Keyboard & mouse included",
-    ],
-  },
-  {
-    id: "lenovo-aio",
-    name: "Lenovo ThinkCentre All-in-One",
-    tagline: "Reliable, quiet, ready-to-plug-in.",
-    image:
-      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
-    startingPrice: "Starting at $XXX",
-    condition: "Tested & Reset",
-    quantity: "Limited Stock",
-    specs: [
-      "Intel Core i5 · 8GB RAM",
-      '21.5" / 23.8" FHD display',
-      "256GB SSD · Wi-Fi enabled",
-      "Webcam · Keyboard & mouse",
-    ],
-  },
-  {
-    id: "hp-aio",
-    name: "HP ProOne All-in-One",
-    tagline: "Sleek footprint, full-size performance.",
-    image:
-      "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
-    startingPrice: "Starting at $XXX",
-    condition: "Tested & Reset",
-    quantity: "Limited Stock",
-    specs: [
-      "Intel Core i5 · 8GB RAM",
-      '21.5" FHD integrated display',
-      "256GB SSD storage",
-      "Webcam · Keyboard & mouse",
+      "Intel processors · 16GB RAM",
+      "512GB SSD storage",
+      "Windows 11",
+      "Webcam · Keyboard & mouse included",
     ],
   },
 ];
