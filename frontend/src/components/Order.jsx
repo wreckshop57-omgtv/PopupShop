@@ -1,12 +1,13 @@
 import { ShoppingBag, ShieldCheck, AlertCircle } from "lucide-react";
 
 const PICK_ONE = [
-  { id: "pick-lenovo", value: "Lenovo Laptop ($250)", label: "Lenovo Laptop", price: "$250" },
-  { id: "pick-ipad", value: "iPad Air 5th Gen ($250)", label: "iPad Air 5th Gen", price: "$250" },
+  { id: "pick-lenovo", value: "Lenovo Laptop ($150)", label: "Lenovo Laptop", price: "$150" },
+  { id: "pick-ipad", value: "iPad Air 5th Gen ($200)", label: "iPad Air 5th Gen", price: "$200" },
+  { id: "pick-aio", value: "All-in-One Desktop ($250)", label: "All-in-One Desktop", price: "$250" },
 ];
 
 const ADDONS = [
-  { id: "addon-office", value: "Microsoft Office +25", label: "Microsoft Office", price: "+$25" },
+  { id: "addon-office", value: "Microsoft Office Suite +40", label: "Microsoft Office Suite", price: "+$40" },
   { id: "addon-storage", value: "512gb upgrade to 1tb +50", label: "512GB → 1TB Storage Upgrade", price: "+$50" },
   { id: "addon-case", value: "Kid-Friendly iPad Case +10", label: "Kid-Friendly iPad Case", price: "+$10" },
   { id: "addon-none", value: "None", label: "None", price: "" },
@@ -21,6 +22,7 @@ const DELIVERY = [
 const PAYMENT = [
   { id: "pay-zelle", value: "Zelle (713-447-2796)", label: "Zelle", detail: "713-447-2796" },
   { id: "pay-venmo", value: "Venmo (Adrian-Brown-109)", label: "Venmo", detail: "@Adrian-Brown-109" },
+  { id: "pay-paypal", value: 'Paypal Invoice "Accepts Credit Cards"', label: "PayPal Invoice", detail: "Accepts credit cards" },
 ];
 
 const fieldLabel =
@@ -132,7 +134,7 @@ export const Order = () => {
             </div>
           </div>
 
-          <FieldGroup title="Pick one or both" testId="order-group-pick">
+          <FieldGroup title="Select one or all" testId="order-group-pick">
             {PICK_ONE.map((o, i) => (
               <OptionRow
                 key={o.id}
@@ -198,13 +200,13 @@ export const Order = () => {
           </FieldGroup>
 
           <div className="mt-7">
-            <label htmlFor="field-b7aa7ee51d3971b" className={fieldLabel}>Promo code</label>
+            <label htmlFor="field-b7aa7ee51d3971b" className={fieldLabel}>Requests</label>
             <input
               type="text"
               name="field-b7aa7ee51d3971b"
               id="field-b7aa7ee51d3971b"
-              data-testid="order-input-promo"
-              placeholder="Optional"
+              data-testid="order-input-requests"
+              placeholder="Anything specific? Notes for us…"
               className="mt-2 w-full h-11 rounded-xl border border-[#D2D2D7] bg-white px-3.5 text-[14px] text-[#1D1D1F] placeholder:text-[#86868B] focus:outline-none focus:ring-2 focus:ring-[#0071E3] focus:border-transparent transition-shadow"
             />
           </div>
