@@ -45,7 +45,11 @@ export const Hero = () => {
           >
             OMGTech
             <br />
-            <span className="font-medium">Pop-Up Shop.</span>
+            <span className="relative inline-block font-medium">
+              <span aria-hidden className="popup-burst" />
+              <span data-testid="hero-popup-word" className="popup-word">Pop-Up</span>{" "}
+              Shop.
+            </span>
           </h1>
 
           <p
