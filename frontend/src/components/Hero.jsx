@@ -85,7 +85,7 @@ export const Hero = () => {
             data-testid="hero-urgency"
             className="mt-8 text-sm font-semibold tracking-wide text-[#E30000]"
           >
-            Once they're gone, they're gone.
+            Once they're <span className="ghost-word">gone</span>, they're <span className="ghost-word delay-2">gone</span>.
           </p>
         </div>
 

@@ -148,6 +148,51 @@ html {
     40% { opacity: 0.2; transform: scale(0.98); }
 }
 
+/* Ghost vanish — every instance of "gone" fades in/out with a wispy blur */
+@keyframes ghost-vanish {
+    0%, 100% {
+        opacity: 1;
+        filter: blur(0px);
+        transform: translateY(0) scale(1);
+        letter-spacing: normal;
+    }
+    35% {
+        opacity: 0.85;
+        filter: blur(0.5px);
+        transform: translateY(-1px) scale(1.02);
+        letter-spacing: 0.04em;
+    }
+    55% {
+        opacity: 0.15;
+        filter: blur(4px);
+        transform: translateY(-6px) scale(1.08);
+        letter-spacing: 0.12em;
+    }
+    70% {
+        opacity: 0;
+        filter: blur(8px);
+        transform: translateY(-12px) scale(1.12);
+        letter-spacing: 0.18em;
+    }
+    85% {
+        opacity: 0;
+        filter: blur(6px);
+        transform: translateY(6px) scale(0.96);
+        letter-spacing: 0.04em;
+    }
+}
+.ghost-word {
+    display: inline-block;
+    color: inherit;
+    animation: ghost-vanish 4.2s ease-in-out infinite;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.7),
+                 0 0 22px rgba(180, 200, 255, 0.4);
+    will-change: opacity, filter, transform, letter-spacing;
+}
+.ghost-word.delay-1 { animation-delay: 1.4s; }
+.ghost-word.delay-2 { animation-delay: 2.8s; }
+.ghost-word.delay-3 { animation-delay: 0.7s; }
+
 /* Pop-Up confetti — small particles bursting out of the word */
 @keyframes confetti-burst {
     0% {

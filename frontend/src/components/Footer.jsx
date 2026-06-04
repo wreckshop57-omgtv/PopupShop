@@ -51,7 +51,7 @@ export const Footer = () => {
 
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs text-white/50">
           <span>© {new Date().getFullYear()} OMGTech. Pop-up event. No permanent storefront.</span>
-          <span>First come, first served. Once they're gone, they're gone.</span>
+          <span>First come, first served. Once they're <span className="ghost-word">gone</span>, they're <span className="ghost-word delay-2">gone</span>.</span>
         </div>
       </div>
     </footer>

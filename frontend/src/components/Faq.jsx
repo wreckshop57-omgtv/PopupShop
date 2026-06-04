@@ -1,4 +1,5 @@
 import { FAQ } from "@/lib/products";
+import { Ghost } from "@/components/Ghost";
 import {
   Accordion,
   AccordionContent,
