@@ -1,4 +1,5 @@
 import { ArrowRight, Sparkles } from "lucide-react";
+import { Confetti } from "@/components/Confetti";
 
 export const Hero = () => {
   return (
@@ -47,6 +48,7 @@ export const Hero = () => {
             <br />
             <span className="relative inline-block font-medium">
               <span aria-hidden className="popup-burst" />
+              <Confetti />
               <span data-testid="hero-popup-word" className="popup-word">Pop-Up</span>{" "}
               Shop.
             </span>
