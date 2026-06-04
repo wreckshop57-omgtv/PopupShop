@@ -12,8 +12,9 @@ export const PRODUCTS = [
     specs: [
       "Apple M1 chip · 8-core CPU",
       '10.9" Liquid Retina display',
-      "8GB RAM · 64GB / 256GB storage",
+      "8GB RAM · 256GB / 512GB storage",
       "Wi-Fi · Touch ID · USB-C",
+      "Charger included",
     ],
   },
   {
@@ -21,7 +22,7 @@ export const PRODUCTS = [
     name: "Lenovo ThinkPad T490",
     tagline: "Business-class workhorse, pop-up pricing.",
     image:
-      "https://images.pexels.com/photos/3550482/pexels-photo-3550482.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://customer-assets.emergentagent.com/job_popup-devices/artifacts/vq54xd4z_ChatGPT%20Image%20May%2031%2C%202026%2C%2001_01_51%20AM.png",
     startingPrice: "Starting at $150",
     retailPrice: "$379",
     condition: "Tested & Reset",
@@ -31,6 +32,7 @@ export const PRODUCTS = [
       '14" FHD anti-glare display',
       "8GB / 16GB RAM · 256GB / 512GB SSD",
       "Backlit keyboard · Windows 11 ready",
+      "Charger included",
     ],
   },
   {
