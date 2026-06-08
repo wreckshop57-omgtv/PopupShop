@@ -94,7 +94,7 @@ const ProductCard = ({ product: p }) => {
               <img
                 src={p.image}
                 alt={p.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain p-4 bg-white"
                 loading="lazy"
               />
               <div
