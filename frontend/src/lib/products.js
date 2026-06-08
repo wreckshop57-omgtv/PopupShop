@@ -5,7 +5,7 @@ export const PRODUCTS = [
     tagline: "M1 power in a paper-thin tablet.",
     image:
       "https://images.unsplash.com/photo-1513348313239-6ccc6c25c11b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwzfHxhcHBsZSUyMGlwYWQlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzgwMjA4MzgzfDA&ixlib=rb-4.1.0&q=85",
-    startingPrice: "Starting at $200",
+    startingPrice: "Your Price! $200",
     retailPrice: "$399",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
@@ -23,7 +23,7 @@ export const PRODUCTS = [
     tagline: "Business-class workhorse, pop-up pricing.",
     image:
       "https://customer-assets.emergentagent.com/job_popup-devices/artifacts/vq54xd4z_ChatGPT%20Image%20May%2031%2C%202026%2C%2001_01_51%20AM.png",
-    startingPrice: "Starting at $150",
+    startingPrice: "Your Price! $150",
     retailPrice: "$379",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
@@ -41,7 +41,7 @@ export const PRODUCTS = [
     tagline: "Dell · Lenovo · HP — one clean unit, ready to plug in.",
     image:
       "https://images.unsplash.com/photo-1587831990711-23ca6441447b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZGVza3RvcCUyMHBjJTIwbW9uaXRvcnxlbnwwfHx8fDE3ODAyMDgzODN8MA&ixlib=rb-4.1.0&q=85",
-    startingPrice: "Starting at $250",
+    startingPrice: "Prices range from 250-350",
     retailPrice: "$599",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
