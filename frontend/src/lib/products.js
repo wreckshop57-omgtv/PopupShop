@@ -5,7 +5,7 @@ export const PRODUCTS = [
     tagline: "M1 power in a paper-thin tablet.",
     image:
       "https://images.unsplash.com/photo-1513348313239-6ccc6c25c11b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwzfHxhcHBsZSUyMGlwYWQlMjB3aGl0ZSUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzgwMjA4MzgzfDA&ixlib=rb-4.1.0&q=85",
-    startingPrice: "Your Price! $200",
+    startingPrice: "Your Price! $250",
     retailPrice: "$399",
     condition: "Tested & Reset",
     quantity: "Limited Stock",
